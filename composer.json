@@ -6,11 +6,13 @@
             "email": "chrisissifou@gmail.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "App\\": "app/",
             "Route\\": "routes/"
         }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
     }
 }

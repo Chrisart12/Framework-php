@@ -1,10 +1,10 @@
 <?php 
-
-    function dd($eltment){
-        var_dump($eltment);
-        die();
+    if(!function_exists('dd')) {
+        function dd($eltment){
+            dump($eltment);
+            die();
+        }
     }
-
     function formateDate($date) {
         if ($date) {
             return date('d/m/Y H:i', strtotime($date));

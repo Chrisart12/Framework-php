@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    popppspmsms
+    <div>
+        <form action="/create" method="post">
+            <input type="text" name="totto">
+            <button type="submit">Valider</button>
+        </form>
+    </div>
 </body>
 </html>
